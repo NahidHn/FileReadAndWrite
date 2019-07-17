@@ -29,6 +29,7 @@ public class FileSearch {
         FileSearch fileSearch = new FileSearch();
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the String");
+        System.out.println("enter your number: ");
         String searchStr = input.nextLine();
         fileSearch.parseFile("Student_list.txt", searchStr);
     }
